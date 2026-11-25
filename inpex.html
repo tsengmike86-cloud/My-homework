@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>多樂三甲4B3K0030曾昭弘｜個人作品展示</title>
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: "Noto Sans TC", sans-serif;
+      background: #f4f2f7;
+      color: #292638;
+      margin: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .navbar {
+      background: #241b3a;
+      color: white;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 16px;
+      display: inline-block;
+    }
+
+    .navbar a:hover {
+      background: #51406f;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #241b3a 0%, #51406f 58%, #9278a8 100%);
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    .hero p {
+      color: #d9c4f2;
+      font-size: 18px;
+    }
+
+    .hero-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 28px;
+      background: #d9c4f2;
+      color: #241b3a;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero-button:hover {
+      background: white;
+    }
+
+    .section {
+      padding: 70px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      color: #51406f;
+      margin-bottom: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: #777;
+      margin-bottom: 40px;
+    }
+
+    .about-box {
+      background: white;
+      border-radius: 18px;
+      padding: 35px;
+      text-align: center;
+      box-shadow: 0 5px 20px rgba(50, 35, 70, 0.08);
+    }
+
+    .about-icon {
+      width: 90px;
+      height: 90px;
+      line-height: 90px;
+      margin: 0 auto 20px;
+      border-radius: 50%;
+      background: #eee5f7;
+      color: #51406f;
+      font-size: 38px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #eee5f7;
+      color: #51406f;
+      padding: 7px 15px;
+      border-radius: 20px;
+      margin: 5px;
+      font-size: 14px;
+    }
+
+    .work-card {
+      background: white;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 5px 20px rgba(50, 35, 70, 0.08);
+      margin-bottom: 25px;
+      transition: 0.3s;
+    }
+
+    .work-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(50, 35, 70, 0.15);
+    }
+
+    .work-card img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .work-info {
+      padding: 20px;
+    }
+
+    .work-info h3 {
+      color: #51406f;
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    .work-info p {
+      color: #777;
+      font-size: 14px;
+    }
+
+    .work-link {
+      display: inline-block;
+      background: #51406f;
+      color: white;
+      padding: 9px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      margin-top: 8px;
+    }
+
+    .work-link:hover {
+      background: #9278a8;
+    }
+
+    .contact {
+      background: #eee5f7;
+      text-align: center;
+      padding: 65px 20px;
+    }
+
+    .contact h2 {
+      color: #51406f;
+      font-weight: 700;
+    }
+
+    footer {
+      background: #241b3a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 29px;
+      }
+
+      .hero {
+        padding: 75px 15px;
+      }
+
+      .section {
+        padding: 50px 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 導覽列 -->
+  <div class="navbar w3-bar">
+    <a href="#home" class="w3-bar-item">首頁</a>
+    <a href="#about" class="w3-bar-item">個人資料</a>
+    <a href="#works" class="w3-bar-item">作品展示</a>
+    <a href="#contact" class="w3-bar-item">聯絡資訊</a>
+  </div>
+
+  <!-- 首頁封面 -->
+  <header class="hero" id="home">
+    <h1>多樂三甲 4B3K0030 曾昭弘</h1>
+    <p>個人作品展示網站</p>
+    <a href="#works" class="hero-button">瀏覽作品 ↓</a>
+  </header>
+
+  <!-- 個人資料 -->
+  <section class="section" id="about">
+    <h2 class="section-title">ABOUT ME</h2>
+    <p class="section-subtitle">關於我</p>
+
+    <div class="about-box">
+      <div class="about-icon">✦</div>
+      <h2>你好，我是曾昭弘！</h2>
+      <p>
+        歡迎來到我的個人作品展示網站。
+        這裡記錄了我在課堂中的學習成果與創作作品，
+        每一次練習都是累積經驗與成長的過程。
+      </p>
+
+      <p>班級：多樂三甲</p>
+      <p>學號：4B3K0030</p>
+      <p>姓名：曾昭弘</p>
+
+      <div>
+        <span class="tag">攝影練習</span>
+        <span class="tag">創意設計</span>
+        <span class="tag">課堂作業</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 作品展示 -->
+  <section class="section" id="works">
+    <h2 class="section-title">MY WORKS</h2>
+    <p class="section-subtitle">課堂作業與創作紀錄</p>
+
+    <div class="w3-row-padding">
+
+      <!-- 作業一 -->
+      <div class="w3-third w3-margin-bottom">
+        <div class="work-card">
+          <a href="https://photos.app.goo.gl/n5h8jgZV4eX4bfBH9" target="_blank">
+            <img src="1.jpg" alt="作業一封面">
+          </a>
+          <div class="work-info">
+            <h3>作業一｜五種光源照片</h3>
+            <p>攝影課堂作品紀錄。</p>
+            <a class="work-link" href="https://photos.app.goo.gl/n5h8jgZV4eX4bfBH9" target="_blank">查看作品</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 作業二 -->
+      <div class="w3-third w3-margin-bottom">
+        <div class="work-card">
+          <a href="https://photos.app.goo.gl/WJqzqAkm8DKqtKcM8" target="_blank">
+            <img src="2.jpg" alt="作業二封面">
+          </a>
+          <div class="work-info">
+            <h3>作業二｜孔廟外拍</h3>
+            <p>外拍攝影作品紀錄。</p>
+            <a class="work-link" href="https://photos.app.goo.gl/WJqzqAkm8DKqtKcM8" target="_blank">查看作品</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 作業三 -->
+      <div class="w3-third w3-margin-bottom">
+        <div class="work-card">
+          <a href="https://photos.app.goo.gl/sTJhtTq24yqEsnpX6" target="_blank">
+            <img src="3.jpg" alt="作業三封面">
+          </a>
+          <div class="work-info">
+            <h3>作業三｜靜物拍攝</h3>
+            <p>靜物攝影練習作品。</p>
+            <a class="work-link" href="https://photos.app.goo.gl/sTJhtTq24yqEsnpX6" target="_blank">查看作品</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 作業四 -->
+      <div class="w3-third w3-margin-bottom">
+        <div class="work-card">
+          <a href="https://photos.app.goo.gl/DuAJQ6dETeuRmMH17" target="_blank">
+            <img src="4.jpg" alt="作業四封面">
+          </a>
+          <div class="work-info">
+            <h3>作業四｜安平劍獅拍攝</h3>
+            <p>安平外拍攝影作品紀錄。</p>
+            <a class="work-link" href="https://photos.app.goo.gl/DuAJQ6dETeuRmMH17" target="_blank">查看作品</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 作業五 -->
+      <div class="w3-third w3-margin-bottom">
+        <div class="work-card">
+          <a href="https://photos.app.goo.gl/24ntxnvpuJeg3aDf9" target="_blank">
+            <img src="5.jpg" alt="作業五封面">
+          </a>
+          <div class="work-info">
+            <h3>作業五</h3>
+            <p>第五個課堂作品紀錄。</p>
+            <a class="work-link" href="https://photos.app.goo.gl/24ntxnvpuJeg3aDf9" target="_blank">查看作品</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 聯絡資訊 -->
+  <section class="contact" id="contact">
+    <h2>THANK YOU</h2>
+    <h3>感謝你的瀏覽！</h3>
+    <p>
+      每件作品都是學習與成長的紀錄，
+      未來也會持續創作、持續進步。
+    </p>
+  </section>
+
+  <!-- 頁尾 -->
+  <footer>
+    © 2026 個人作品展示網站｜Designed with W3.CSS
+    <br><br>
+    <a href="#home" style="color:#d9c4f2;">回到首頁 ↑</a>
+  </footer>
+
+</body>
+</html>
